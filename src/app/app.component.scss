@@ -1,0 +1,22 @@
+#navbar {
+  /* Cores */
+  --mpc-color-bg-header: var(--color-secondary);
+  --mpc-color-text-disabled: var(--color-tertiary);
+  --mpc-color-text-active: var(--color-tertiary);
+  --mpc-color-text-hover: var(--color-tertiary);
+  --mpc-color-border-active: var(--color-primary);
+
+  /* Fontes */
+  --mpc-font-navbar: var(--font-default);
+}
+
+#loader-exemplo {
+  /* Cores */
+  --mpc-bg-loader: var(--color-secondary);
+  --mpc-color-loader: var(--color-primary);
+}
+
+#btn-whatsapp {
+  --mpc-btn-float-bg: #25D366;
+  --mpc-btn-float-color: white;
+}

@@ -1,0 +1,89 @@
+/* Importação de fontes */
+@import url('https://fonts.cdnfonts.com/css/brightwall');
+
+/* Importação de bootstrap-icons */
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+/*--------------------------------------------------------------
+# Geral
+--------------------------------------------------------------*/
+
+* {
+  /* Fontes do app */
+  --font-title: 'Brightwall', sans-serif;
+  --font-default: "Inter", sans-serif;
+  --font-subtitle: "Inter", sans-serif;
+
+  /* Definição de fontes da mpc-lib-angular */
+  --mpc-font-title: var(--font-title);
+  --mpc-font-default: var(--font-default);
+  --mpc-font-subtitle: var(--font-subtitle);
+
+  /* Cores do app */
+  --color-primary: #8B4D27;
+  --color-secondary: #D0AF9C;
+  --color-tertiary: #181715;
+
+  /* Definição de cores da mpc-lib-angular */
+  --mpc-color-primary: var(--color-primary);
+  --mpc-color-secondary: var(--color-secondary);
+  --mpc-color-tertiary: var(--color-tertiary);
+
+  scroll-behavior: smooth;
+
+  -ms-overflow-style: none;
+  /* IE and Edge */
+  scrollbar-width: none;
+  /* Firefox */
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+body {
+  font-family: var(--font-default);
+  color: var(--color-primary);
+  overflow: auto !important;
+
+  main {
+    section {
+      padding: 2.5rem 1rem;
+      overflow: hidden;
+
+      .section-title {
+        padding-bottom: 1rem;
+
+        h2 {
+          font-size: 32px;
+          font-weight: bold;
+          margin-bottom: 20px;
+          padding-bottom: 20px;
+          position: relative;
+          color: var(--color-tertiary);
+
+          &::after {
+            content: '';
+            position: absolute;
+            display: block;
+            width: 50px;
+            height: 3px;
+            background: var(--color-primary);
+            bottom: 0;
+            left: 0;
+          }
+        }
+      }
+    }
+
+    a {
+      text-decoration: none;
+      color: var(--color-secondary);
+
+      &:hover {
+        color: var(--color-primary);
+      }
+    }
+
+  }
+}
