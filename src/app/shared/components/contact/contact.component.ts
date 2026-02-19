@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, inject } from '@angular/core';
 import { NonNullableFormBuilder, ReactiveFormsModule } from '@angular/forms';
 import { MpcButtonComponent, MpcInputTextComponent, MpcInputEmailComponent, MpcInputTextAreaComponent } from 'mpc-lib-angular';
 
@@ -13,6 +13,8 @@ import { MpcButtonComponent, MpcInputTextComponent, MpcInputEmailComponent, MpcI
 })
 export class ContactComponent {
 
+  private readonly formBuilder = inject(NonNullableFormBuilder);
+
   /**
    * Contact form
    */
@@ -21,8 +23,6 @@ export class ContactComponent {
     email: [''],
     message: [''],
   });
-
-  constructor(private formBuilder: NonNullableFormBuilder) {}
 
   /**
    * Submits the contact form and opens the email client.
