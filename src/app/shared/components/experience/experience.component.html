@@ -1,0 +1,43 @@
+<section class="experience" id="carreira">
+  <div class="container">
+
+    <div class="section-title">
+      <h2>Minha Carreira</h2>
+    </div>
+
+    <mpc-tabs [tabs]="tabs" (tabSelected)="selectedTab = $event"></mpc-tabs>
+
+    <div class="row">
+      @if (selectedTab?.id === 'formacao-academica') {
+      <div class="col-lg-12" data-aos="fade-up">
+        <mpc-card-evento>
+          <div card-body>
+            <h4>Gestão de Recursos Humanos</h4>
+            <h5>UNIASSELVI</h5>
+            <span>2022 - 2025</span>
+          </div>
+        </mpc-card-evento>
+      </div>
+      }
+
+      @if (selectedTab?.id === 'experiencia-profissional') {
+      <div class="col-lg-12" data-aos="fade-up">
+        @for (job of jobs; track $index) {
+        <mpc-card-evento>
+          <div card-body>
+            <h4>{{ job.titulo }}</h4>
+            <h5>{{ job.empresa }}</h5>
+            <ul>
+              @for (atividade of job.atividades; track $index) {
+              <li>{{atividade}}</li>
+              }
+            </ul>
+            <span>{{ job.periodo }}</span>
+          </div>
+        </mpc-card-evento>
+        }
+      </div>
+      }
+    </div>
+  </div>
+</section>

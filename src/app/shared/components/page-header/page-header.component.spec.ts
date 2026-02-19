@@ -18,7 +18,7 @@ describe('PageHeaderComponent', () => {
     jest.clearAllMocks();
   });
 
-  it('deve criar o componente', () => {
+  it('should create the component', () => {
     expect(component).toBeTruthy();
   });
 });

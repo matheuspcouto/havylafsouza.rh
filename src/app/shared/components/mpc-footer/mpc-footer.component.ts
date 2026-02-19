@@ -1,8 +1,8 @@
 /**
- * @Componente MpcFooterComponent
- * Este componente é responsável por exibir o rodapé da aplicação.
+ * @Component MpcFooterComponent
+ * This component is responsible for displaying the application footer.
  *
- * @Exemplo de utilização:
+ * @Usage example:
  * <mpc-footer></mpc-footer>
  *
  * @author Matheus Pimentel Do Couto
@@ -21,5 +21,5 @@ import { Component } from '@angular/core';
 })
 export class MpcFooterComponent {
 
-  protected anoAtual = new Date().getFullYear();
+  protected currentYear = new Date().getFullYear();
 }
