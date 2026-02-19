@@ -2,9 +2,9 @@
 
 > **Professional Portfolio Website** - Human Resources | HR Professional
 
-Professional online portfolio built with Angular for **Havyla Ferreira Souza**, designed to showcase her journey in Human Resources, certifications, technical competencies, and relevant projects through a modern, responsive, and performance-focused interface.
+Online portfolio for HR professional Hávyla Ferreira Souza, built with HTML, CSS, and JavaScript to showcase her professional journey, experience, and core competencies in a clear, strategic format.
 
-The platform strengthened her professional positioning by improving how recruiters and companies visualize her experience, technical depth in HR, and measurable results. With a structured presentation of projects and a clear value proposition, it enhanced engagement and contributed to a higher conversion rate on LinkedIn, increasing profile visits and professional opportunities.
+The website enhanced her professional positioning by improving visual presentation, structuring content, and strengthening her personal branding. As a result, it increased her visibility and significantly improved her LinkedIn conversion rate, generating more profile visits and professional connections.
 
 ## 📑 Table of Contents
 
