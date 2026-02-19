@@ -26,53 +26,28 @@ export class SkillsComponent {
   protected skills: Skill[] = [
     {
       title: 'Marketing',
-      icon: 'fa-chart-line',
-      items: [
-        'Planejamento de Campanhas',
-        'Endomarketing',
-        'Análise de métricas',
-        'Branding',
-      ],
+      icon: 'bi bi-megaphone-fill',
+      items: ['Redes Sociais', 'Comunicação Interna e Externa', 'Campanhas Publicitárias', 'Canva'],
     },
     {
       title: 'Administração',
-      icon: 'fa-briefcase',
-      items: [
-        'Gestão de Processos',
-        'Planejamento Financeiro',
-        'Análise de Dados',
-        'Gestão de Projetos',
-      ],
+      icon: 'bi bi-briefcase-fill',
+      items: ['Gestão de Projetos', 'Organização de Eventos', 'Controle Financeiro', 'Atendimento ao Cliente'],
     },
     {
       title: 'Gestão de pessoas',
-      icon: 'fa-users',
-      items: [
-        'Recrutamento e Seleção',
-        'Treinamento e Desenvolvimento',
-        'Avaliação de Desempenho',
-        'Gestão de Conflitos',
-      ],
+      icon: 'bi bi-people-fill',
+      items: ['Recrutamento e Seleção', 'Treinamento e Desenvolvimento', 'Avaliação de Desempenho'],
     },
     {
       title: 'Treinamentos',
-      icon: 'fa-chalkboard-teacher',
-      items: [
-        'Desenvolvimento de Líderes',
-        'Capacitação Técnica',
-        'Programas de Integração',
-        'Coaching e Mentoria',
-      ],
+      icon: 'bi bi-trophy-fill',
+      items: ['Planejamento de Treinamentos', 'Execução de Treinamentos', 'Avaliação de Resultados'],
     },
     {
       title: 'Planejamento Estratégico',
-      icon: 'fa-chess',
-      items: [
-        'Análise SWOT',
-        'Definição de Metas',
-        'Planejamento de Recursos',
-        'Monitoramento de KPIs',
-      ],
+      icon: 'bi bi-graph-up-arrow',
+      items: ['Análise de Cenários', 'Definição de Metas', 'Monitoramento de Resultados'],
     },
   ];
 }

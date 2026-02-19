@@ -29,10 +29,7 @@ export class AboutComponent {
    * Opens the PDF resume in Portuguese in a new tab.
    */
   protected viewResumePT(): void {
-    window.open(
-      'https://www.canva.com/design/DAF7hN6Kh4s/RiDR0EZZX71Gq-8_J5YCEA/view?utm_content=DAF7hN6Kh4s&utm_campaign=designshare&utm_medium=link&utm_source=editor',
-      '_blank'
-    );
+    window.open('https://www.canva.com/design/DAGNTsZF9ZA/SlHnN155fRL0kkNLUhE2Xw/view', '_blank');
   }
 
   /**

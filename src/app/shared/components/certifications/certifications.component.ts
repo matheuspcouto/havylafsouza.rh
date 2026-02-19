@@ -28,28 +28,24 @@ export class CertificationsComponent {
    */
   protected certifications: Certification[] = [
     {
-      title: 'Recursos Humanos - Gestão de Pessoas',
-      icon: 'fa-users',
-      completionDate: '2024',
-      url: 'https://drive.google.com/file/d/1VIqOr6c6BV9s2fpMxW5hP2DtTWoR5y0N/view?usp=sharing'
+      title: 'RH Talks | Liderança & Cultura',
+      icon: 'bi bi-people-fill',
+      completionDate: 'Outubro - 2023',
     },
     {
-      title: 'Recursos Humanos - Green Belt',
-      icon: 'fa-certificate',
-      completionDate: '2024',
-      url: 'https://drive.google.com/file/d/1tNOWTuZp9H-oVDV9-X0bEvyMpDFkI68p/view?usp=sharing'
+      title: 'RH Summit 2023',
+      icon: 'bi bi-people-fill',
+      completionDate: 'Junho - 2023',
     },
     {
-      title: 'Processos de Recrutamento e Seleção',
-      icon: 'fa-user-check',
-      completionDate: '2024',
-      url: 'https://drive.google.com/file/d/19wqI7qO8i1_HKZBJn5owXCyBXy_y2SyB/view?usp=sharing'
+      title: 'RH Talks | Dados e IA',
+      icon: 'bi bi-people-fill',
+      completionDate: 'Março - 2023',
     },
     {
-      title: 'Liderança e Gestão de Equipe',
-      icon: 'fa-user-tie',
-      completionDate: '2024',
-      url: 'https://drive.google.com/file/d/1SJbPz6yF4I2y0Pox5KIYSMlN5dQcyJGD/view?usp=sharing'
+      title: 'RH Talks | Edição Especial: Gestão Global de Pessoas',
+      icon: 'bi bi-people-fill',
+      completionDate: 'Outubro - 2022',
     },
   ];
 
