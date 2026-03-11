@@ -6,10 +6,10 @@ import { MpcCardEventoComponent, MpcTabsComponent, Tab } from 'mpc-lib-angular';
  * @interface Job
  */
 interface Job {
-  titulo: string;
-  periodo: string;
-  empresa: string;
-  atividades: string[];
+  title: string;
+  period: string;
+  company: string;
+  activities: string[];
 }
 
 @Component({
@@ -46,37 +46,48 @@ export class ExperienceComponent {
 
     this.jobs = [
       {
-        titulo: 'Recepcionista',
-        periodo: '2015 - 2016',
-        empresa: 'Medimagem - Clínica de Diagnóstico por Imagem',
-        atividades: [
-          'Recepção de pacientes',
-          'Atendimento ao cliente',
-          'Relatórios',
+        title: 'Recepcionista',
+        period: 'Dez 2016 - Jan 2018',
+        company: 'Medimagem - Clínica de Radiologia e Ultrassonografia',
+        activities: [
+          'Atendimento ao público e recepção de pacientes',
+          'Organização de agenda e controle de atendimentos',
+          'Suporte administrativo às rotinas da clínica',
+          'Atendimento telefônico e orientação aos pacientes',
+          'Organização de documentos e registros de atendimento',
+          'Apoio à equipe administrativa',
         ],
       },
       {
-        titulo: 'Assistente Administrativo (RH)',
-        periodo: '2020 - 2023',
-        empresa: 'Medcentro - Distribuidora de Produtos Farmacêuticos',
-        atividades: [
-          'Formalidades de admissão e demissão',
-          'Documentação',
-          'Controle de processos',
-          'Planejamento de recursos humanos',
+        title: 'Assistente Administrativo de RH',
+        period: 'Nov 2020 - Mai 2023',
+        company: 'Medcentro - Distribuidora de Produtos Farmacêuticos',
+        activities: [
+          'Suporte às rotinas administrativas do setor de Recursos Humanos',
+          'Apoio em processos de Recrutamento e Seleção, incluindo triagem de currículos',
+          'Organização e controle de documentação de colaboradores',
+          'Apoio em processos admissionais e acompanhamento de integração de novos colaboradores',
+          'Atendimento interno a colaboradores e suporte às demandas administrativas',
+          'Controle e organização de arquivos físicos e digitais do setor',
+          'Apoio na comunicação interna e divulgação de informações institucionais',
+          'Suporte às rotinas administrativas gerais da empresa',
         ],
       },
       {
-        titulo: 'Auxiliar de Gestão Pessoal (RH)',
-        periodo: '2023 - Atualmente',
-        empresa: 'Destaque do Norte',
-        atividades: [
-          'Formalidades de admissão e demissão',
-          'Documentação',
-          'Controle de processos',
-          'Planejamento de recursos humanos',
-          'Treinamentos',
-
+        title: 'Auxiliar de Gestão Pessoal (RH)',
+        period: 'Jun 2023 - Atualmente',
+        company: 'Destaque do Norte',
+        activities: [
+          'Apoio nas rotinas de Recursos Humanos',
+          'Divulgação de vagas e apoio em processos de Recrutamento e Seleção',
+          'Triagem de currículos e suporte no agendamento de entrevistas',
+          'Condução de processos admissionais e desligamentos de colaboradores, acompanhamento de integração de novos colaboradores',
+          'Atendimento e suporte aos colaboradores para esclarecimento de dúvidas internas',
+          'Apoio em processos administrativos e organização de documentos de colaboradores',
+          'Criação de cards de divulgação de vagas e comunicados internos',
+          'Desenvolvimento de materiais de comunicação interna e endomarketing (datas comemorativas, avisos institucionais e campanhas internas)',
+          'Criação de materiais visuais utilizando Canva',
+          'Edição de vídeos institucionais e conteúdos para comunicação interna',
         ],
       },
     ];
