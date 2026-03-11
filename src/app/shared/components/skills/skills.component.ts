@@ -25,29 +25,34 @@ export class SkillsComponent {
    */
   protected skills: Skill[] = [
     {
-      title: 'Marketing',
-      icon: 'bi bi-megaphone-fill',
-      items: ['Redes Sociais', 'Comunicação Interna e Externa', 'Campanhas Publicitárias', 'Canva'],
+      title: 'Recrutamento & Seleção',
+      icon: 'bi bi-person-check-fill',
+      items: ['Divulgação de Vagas', 'Triagem de Currículos', 'Agendamento de Entrevistas', 'Condução de Processos Seletivos', 'R&S Operacional'],
     },
     {
-      title: 'Administração',
-      icon: 'bi bi-briefcase-fill',
-      items: ['Gestão de Projetos', 'Organização de Eventos', 'Controle Financeiro', 'Atendimento ao Cliente'],
+      title: 'Admissão & Desligamento',
+      icon: 'bi bi-file-earmark-person-fill',
+      items: ['Admissão de Colaboradores', 'Desligamento de Colaboradores', 'Onboarding & Integração', 'Organização de Documentação', 'Controle de Arquivos de RH'],
     },
     {
-      title: 'Gestão de pessoas',
+      title: 'Gestão de Pessoas',
       icon: 'bi bi-people-fill',
-      items: ['Recrutamento e Seleção', 'Treinamento e Desenvolvimento', 'Avaliação de Desempenho'],
+      items: ['Treinamento & Desenvolvimento', 'Avaliação de Resultados', 'Experiência do Colaborador', 'Engajamento de Equipes'],
     },
     {
-      title: 'Treinamentos',
-      icon: 'bi bi-trophy-fill',
-      items: ['Planejamento de Treinamentos', 'Execução de Treinamentos', 'Avaliação de Resultados'],
+      title: 'Marketing & Comunicação',
+      icon: 'bi bi-megaphone-fill',
+      items: ['Campanhas Internas', 'Comunicados Institucionais', 'Canva', 'CapCut', 'Criação de Cards, Banners e Vídeos', 'Endomarketing'],
     },
     {
-      title: 'Planejamento Estratégico',
+      title: 'Rotinas Administrativas',
+      icon: 'bi bi-briefcase-fill',
+      items: ['Pacote Office', 'Secullum Ponto', 'Controle Financeiro', 'Organização de Eventos', 'Atendimento ao Colaborador', 'Controle de Documentos'],
+    },
+    {
+      title: 'Gestão de Processos',
       icon: 'bi bi-graph-up-arrow',
-      items: ['Análise de Cenários', 'Definição de Metas', 'Monitoramento de Resultados'],
+      items: ['Análise de Cenários', 'Definição de Metas', 'Monitoramento de Resultados', 'Melhoria de Processos', 'Planejamento Estratégico'],
     },
   ];
 }

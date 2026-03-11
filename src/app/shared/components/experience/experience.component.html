@@ -25,14 +25,14 @@
         @for (job of jobs; track $index) {
         <mpc-card-evento>
           <div card-body>
-            <h4>{{ job.titulo }}</h4>
-            <h5>{{ job.empresa }}</h5>
+            <h4>{{ job.title }}</h4>
+            <h5>{{ job.company }}</h5>
             <ul>
-              @for (atividade of job.atividades; track $index) {
-              <li>{{atividade}}</li>
+              @for (activity of job.activities; track $index) {
+              <li>{{activity}}</li>
               }
             </ul>
-            <span>{{ job.periodo }}</span>
+            <span>{{ job.period }}</span>
           </div>
         </mpc-card-evento>
         }

@@ -21,7 +21,7 @@ describe('SkillsComponent', () => {
 
   it('should initialize with skills list', () => {
     expect(component['skills']).toBeDefined();
-    expect(component['skills'].length).toBe(5);
+    expect(component['skills'].length).toBe(6);
   });
 
   it('should have skills with required properties', () => {

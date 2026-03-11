@@ -38,10 +38,10 @@ describe('ExperienceComponent', () => {
 
   it('should have jobs with required properties', () => {
     const job = component['jobs'][0];
-    expect(job.titulo).toBeDefined();
-    expect(job.periodo).toBeDefined();
-    expect(job.empresa).toBeDefined();
-    expect(job.atividades).toBeDefined();
-    expect(Array.isArray(job.atividades)).toBe(true);
+    expect(job.title).toBeDefined();
+    expect(job.period).toBeDefined();
+    expect(job.company).toBeDefined();
+    expect(job.activities).toBeDefined();
+    expect(Array.isArray(job.activities)).toBe(true);
   });
 });
